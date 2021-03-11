@@ -22,7 +22,7 @@
 		547DFDD025F2D71500472017 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547DFDCF25F2D71500472017 /* LandmarkDetail.swift */; };
 		547DFDD525F4386700472017 /* JsonLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547DFDD425F4386600472017 /* JsonLoader.swift */; };
 		547DFDDB25F43C9300472017 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547DFDDA25F43C9300472017 /* FavoriteButton.swift */; };
-		54866C8325F1B1900027F4DB /* PlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54866C8225F1B1900027F4DB /* PlaygroundApp.swift */; };
+		54866C8325F1B1900027F4DB /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54866C8225F1B1900027F4DB /* LandmarksApp.swift */; };
 		54866C8525F1B1900027F4DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54866C8425F1B1900027F4DB /* ContentView.swift */; };
 		54866C8725F1B1930027F4DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54866C8625F1B1930027F4DB /* Assets.xcassets */; };
 		54866C8A25F1B1930027F4DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54866C8925F1B1930027F4DB /* Preview Assets.xcassets */; };
@@ -58,8 +58,8 @@
 		547DFDCF25F2D71500472017 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		547DFDD425F4386600472017 /* JsonLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonLoader.swift; sourceTree = "<group>"; };
 		547DFDDA25F43C9300472017 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
-		54866C7F25F1B1900027F4DB /* Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		54866C8225F1B1900027F4DB /* PlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundApp.swift; sourceTree = "<group>"; };
+		54866C7F25F1B1900027F4DB /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54866C8225F1B1900027F4DB /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		54866C8425F1B1900027F4DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		54866C8625F1B1930027F4DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54866C8925F1B1930027F4DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -170,7 +170,7 @@
 				54AFE58925FA5DAD00AACDB3 /* Mintfile */,
 				54AFE58D25FA5ECD00AACDB3 /* README.md */,
 				54AFE58625FA5C7600AACDB3 /* .swiftlint.yml */,
-				54866C8125F1B1900027F4DB /* Playground */,
+				54866C8125F1B1900027F4DB /* Landmarks */,
 				54866C8025F1B1900027F4DB /* Products */,
 				54B35F3425F268910028F59A /* Frameworks */,
 			);
@@ -179,15 +179,15 @@
 		54866C8025F1B1900027F4DB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				54866C7F25F1B1900027F4DB /* Playground.app */,
+				54866C7F25F1B1900027F4DB /* Landmarks.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		54866C8125F1B1900027F4DB /* Playground */ = {
+		54866C8125F1B1900027F4DB /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
-				54866C8225F1B1900027F4DB /* PlaygroundApp.swift */,
+				54866C8225F1B1900027F4DB /* LandmarksApp.swift */,
 				5472A4AD25F2648500F1E8FB /* Views */,
 				5472A4AF25F264A400F1E8FB /* Models */,
 				5472A4AE25F2649200F1E8FB /* Resources */,
@@ -196,7 +196,7 @@
 				54866C8B25F1B1930027F4DB /* Info.plist */,
 				54866C8825F1B1930027F4DB /* Preview Content */,
 			);
-			path = Playground;
+			path = Landmarks;
 			sourceTree = "<group>";
 		};
 		54866C8825F1B1930027F4DB /* Preview Content */ = {
@@ -240,9 +240,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		54866C7E25F1B1900027F4DB /* Playground */ = {
+		54866C7E25F1B1900027F4DB /* Landmarks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54866C8E25F1B1930027F4DB /* Build configuration list for PBXNativeTarget "Playground" */;
+			buildConfigurationList = 54866C8E25F1B1930027F4DB /* Build configuration list for PBXNativeTarget "Landmarks" */;
 			buildPhases = (
 				54AFE58225FA54B400AACDB3 /* Swiftlint */,
 				54866C7B25F1B1900027F4DB /* Sources */,
@@ -253,11 +253,11 @@
 			);
 			dependencies = (
 			);
-			name = Playground;
+			name = Landmarks;
 			packageProductDependencies = (
 			);
 			productName = playground;
-			productReference = 54866C7F25F1B1900027F4DB /* Playground.app */;
+			productReference = 54866C7F25F1B1900027F4DB /* Landmarks.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -274,7 +274,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 54866C7A25F1B1900027F4DB /* Build configuration list for PBXProject "Playground" */;
+			buildConfigurationList = 54866C7A25F1B1900027F4DB /* Build configuration list for PBXProject "Landmarks" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -289,7 +289,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				54866C7E25F1B1900027F4DB /* Playground */,
+				54866C7E25F1B1900027F4DB /* Landmarks */,
 			);
 		};
 /* End PBXProject section */
@@ -342,7 +342,7 @@
 				5462EA7B25F4D511008A88F1 /* HexagonParameters.swift in Sources */,
 				54866C8525F1B1900027F4DB /* ContentView.swift in Sources */,
 				5472A4A025F1B9E500F1E8FB /* MapView.swift in Sources */,
-				54866C8325F1B1900027F4DB /* PlaygroundApp.swift in Sources */,
+				54866C8325F1B1900027F4DB /* LandmarksApp.swift in Sources */,
 				547DFDCD25F2D45600472017 /* LandmarkList.swift in Sources */,
 				547DFDD525F4386700472017 /* JsonLoader.swift in Sources */,
 				54AFE56C25FA1E5D00AACDB3 /* HikeDetail.swift in Sources */,
@@ -493,16 +493,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"playground/Preview Content\"";
 				DEVELOPMENT_TEAM = 4HB7Z3F9Q7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = playground/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Landmarks/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.mauricio.playground;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.mauricio.landmarks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -517,16 +516,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"playground/Preview Content\"";
 				DEVELOPMENT_TEAM = 4HB7Z3F9Q7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = playground/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Landmarks/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.mauricio.playground;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.mauricio.landmarks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -537,7 +535,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		54866C7A25F1B1900027F4DB /* Build configuration list for PBXProject "Playground" */ = {
+		54866C7A25F1B1900027F4DB /* Build configuration list for PBXProject "Landmarks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				54866C8C25F1B1930027F4DB /* Debug */,
@@ -546,7 +544,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54866C8E25F1B1930027F4DB /* Build configuration list for PBXNativeTarget "Playground" */ = {
+		54866C8E25F1B1930027F4DB /* Build configuration list for PBXNativeTarget "Landmarks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				54866C8F25F1B1930027F4DB /* Debug */,

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "54866C7E25F1B1900027F4DB"
-               BuildableName = "Playground.app"
-               BlueprintName = "Playground"
-               ReferencedContainer = "container:playground.xcodeproj">
+               BuildableName = "Landmarks.app"
+               BlueprintName = "Landmarks"
+               ReferencedContainer = "container:Landmarks.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "54866C7E25F1B1900027F4DB"
-            BuildableName = "Playground.app"
-            BlueprintName = "Playground"
-            ReferencedContainer = "container:playground.xcodeproj">
+            BuildableName = "Landmarks.app"
+            BlueprintName = "Landmarks"
+            ReferencedContainer = "container:Landmarks.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "54866C7E25F1B1900027F4DB"
-            BuildableName = "Playground.app"
-            BlueprintName = "Playground"
-            ReferencedContainer = "container:playground.xcodeproj">
+            BuildableName = "Landmarks.app"
+            BlueprintName = "Landmarks"
+            ReferencedContainer = "container:Landmarks.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
