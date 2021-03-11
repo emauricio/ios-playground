@@ -106,6 +106,7 @@
 		5472A4AD25F2648500F1E8FB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				54866C8425F1B1900027F4DB /* ContentView.swift */,
 				54AFE56E25FA374300AACDB3 /* Categories */,
 				546484F525F50BD400ADBF33 /* Hikes */,
 				547DFDDE25F43E1E00472017 /* Landmarks */,
@@ -156,7 +157,6 @@
 		547DFDDE25F43E1E00472017 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
-				54866C8425F1B1900027F4DB /* ContentView.swift */,
 				547DFDC725F2CCE100472017 /* LandmarkRow.swift */,
 				547DFDCC25F2D45600472017 /* LandmarkList.swift */,
 				547DFDCF25F2D71500472017 /* LandmarkDetail.swift */,
