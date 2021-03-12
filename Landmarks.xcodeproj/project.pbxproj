@@ -44,6 +44,7 @@
 		54FF849825FAD80100D684F2 /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FF849725FAD80100D684F2 /* ProfileHost.swift */; };
 		54FF849B25FAD89D00D684F2 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FF849A25FAD89D00D684F2 /* ProfileSummary.swift */; };
 		54FF849E25FAE90700D684F2 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FF849D25FAE90700D684F2 /* HikeBadge.swift */; };
+		54FF84A225FB9E2900D684F2 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FF84A125FB9E2900D684F2 /* ProfileEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		54FF849725FAD80100D684F2 /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		54FF849A25FAD89D00D684F2 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		54FF849D25FAE90700D684F2 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		54FF84A125FB9E2900D684F2 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,6 +255,7 @@
 			children = (
 				54FF849725FAD80100D684F2 /* ProfileHost.swift */,
 				54FF849A25FAD89D00D684F2 /* ProfileSummary.swift */,
+				54FF84A125FB9E2900D684F2 /* ProfileEditor.swift */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -359,6 +362,7 @@
 			files = (
 				54A4332525F5052500C71A57 /* Hike.swift in Sources */,
 				54AFE57825FA4A2200AACDB3 /* CategoryItem.swift in Sources */,
+				54FF84A225FB9E2900D684F2 /* ProfileEditor.swift in Sources */,
 				54FF849B25FAD89D00D684F2 /* ProfileSummary.swift in Sources */,
 				5462EA7B25F4D511008A88F1 /* HexagonParameters.swift in Sources */,
 				54FF849425FAD68B00D684F2 /* Profile.swift in Sources */,
