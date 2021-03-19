@@ -129,7 +129,6 @@
 				547263532604F6BF006F1219 /* FeatureCard.swift */,
 				5472635B2604FB06006F1219 /* PageView.swift */,
 				5472635E2605069A006F1219 /* PageControl.swift */,
-				54866C8425F1B1900027F4DB /* ContentView.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -137,6 +136,7 @@
 		5472A4AD25F2648500F1E8FB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				54866C8425F1B1900027F4DB /* ContentView.swift */,
 				5472636126050C8D006F1219 /* PageView */,
 				54FF849625FAD7DC00D684F2 /* Profiles */,
 				54AFE56E25FA374300AACDB3 /* Categories */,
