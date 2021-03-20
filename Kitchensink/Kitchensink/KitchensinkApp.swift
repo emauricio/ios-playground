@@ -1,6 +1,6 @@
 //
-//  kitchen_sinkApp.swift
-//  kitchen-sink
+//  KitchensinkApp.swift
+//  Kitchensink
 //
 //  Created by Efren Mauricio on 2021/03/19.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct kitchen_sinkApp: App {
+struct KitchensinkApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

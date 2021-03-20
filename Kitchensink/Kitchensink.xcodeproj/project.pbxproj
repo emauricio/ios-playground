@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		54CCC0FA260523BA007EA2B5 /* kitchen_sinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CCC0F9260523BA007EA2B5 /* kitchen_sinkApp.swift */; };
-		54CCC0FC260523BA007EA2B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CCC0FB260523BA007EA2B5 /* ContentView.swift */; };
-		54CCC0FE260523BB007EA2B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54CCC0FD260523BB007EA2B5 /* Assets.xcassets */; };
-		54CCC101260523BB007EA2B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54CCC100260523BB007EA2B5 /* Preview Assets.xcassets */; };
+		54B9605126054B2400F75DB9 /* KitchensinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B9605026054B2400F75DB9 /* KitchensinkApp.swift */; };
+		54B9605326054B2400F75DB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B9605226054B2400F75DB9 /* ContentView.swift */; };
+		54B9605526054B2600F75DB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54B9605426054B2600F75DB9 /* Assets.xcassets */; };
+		54B9605826054B2600F75DB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54B9605726054B2600F75DB9 /* Preview Assets.xcassets */; };
+		54B9606226054B4200F75DB9 /* ScrollViewReaderSink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B9606126054B4200F75DB9 /* ScrollViewReaderSink.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		54CCC0F6260523BA007EA2B5 /* kitchen-sink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kitchen-sink.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		54CCC0F9260523BA007EA2B5 /* kitchen_sinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kitchen_sinkApp.swift; sourceTree = "<group>"; };
-		54CCC0FB260523BA007EA2B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		54CCC0FD260523BB007EA2B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		54CCC100260523BB007EA2B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		54CCC102260523BB007EA2B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54B9604D26054B2400F75DB9 /* Kitchensink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kitchensink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54B9605026054B2400F75DB9 /* KitchensinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchensinkApp.swift; sourceTree = "<group>"; };
+		54B9605226054B2400F75DB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		54B9605426054B2600F75DB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54B9605726054B2600F75DB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		54B9605926054B2600F75DB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54B9606126054B4200F75DB9 /* ScrollViewReaderSink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderSink.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		54CCC0F3260523BA007EA2B5 /* Frameworks */ = {
+		54B9604A26054B2400F75DB9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,77 +35,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		54CCC0ED260523BA007EA2B5 = {
+		54B9604426054B2400F75DB9 = {
 			isa = PBXGroup;
 			children = (
-				54CCC0F8260523BA007EA2B5 /* kitchen-sink */,
-				54CCC0F7260523BA007EA2B5 /* Products */,
+				54B9604F26054B2400F75DB9 /* Kitchensink */,
+				54B9604E26054B2400F75DB9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		54CCC0F7260523BA007EA2B5 /* Products */ = {
+		54B9604E26054B2400F75DB9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				54CCC0F6260523BA007EA2B5 /* kitchen-sink.app */,
+				54B9604D26054B2400F75DB9 /* Kitchensink.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		54CCC0F8260523BA007EA2B5 /* kitchen-sink */ = {
+		54B9604F26054B2400F75DB9 /* Kitchensink */ = {
 			isa = PBXGroup;
 			children = (
-				54CCC0F9260523BA007EA2B5 /* kitchen_sinkApp.swift */,
-				54CCC0FB260523BA007EA2B5 /* ContentView.swift */,
-				54CCC0FD260523BB007EA2B5 /* Assets.xcassets */,
-				54CCC102260523BB007EA2B5 /* Info.plist */,
-				54CCC0FF260523BB007EA2B5 /* Preview Content */,
+				54B9606026054B3100F75DB9 /* Views */,
+				54B9605026054B2400F75DB9 /* KitchensinkApp.swift */,
+				54B9605226054B2400F75DB9 /* ContentView.swift */,
+				54B9605426054B2600F75DB9 /* Assets.xcassets */,
+				54B9605926054B2600F75DB9 /* Info.plist */,
+				54B9605626054B2600F75DB9 /* Preview Content */,
 			);
-			path = "kitchen-sink";
+			path = Kitchensink;
 			sourceTree = "<group>";
 		};
-		54CCC0FF260523BB007EA2B5 /* Preview Content */ = {
+		54B9605626054B2600F75DB9 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				54CCC100260523BB007EA2B5 /* Preview Assets.xcassets */,
+				54B9605726054B2600F75DB9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		54B9606026054B3100F75DB9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				54B9606126054B4200F75DB9 /* ScrollViewReaderSink.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		54CCC0F5260523BA007EA2B5 /* kitchen-sink */ = {
+		54B9604C26054B2400F75DB9 /* Kitchensink */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 54CCC105260523BB007EA2B5 /* Build configuration list for PBXNativeTarget "kitchen-sink" */;
+			buildConfigurationList = 54B9605C26054B2600F75DB9 /* Build configuration list for PBXNativeTarget "Kitchensink" */;
 			buildPhases = (
-				54CCC0F2260523BA007EA2B5 /* Sources */,
-				54CCC0F3260523BA007EA2B5 /* Frameworks */,
-				54CCC0F4260523BA007EA2B5 /* Resources */,
+				54B9604926054B2400F75DB9 /* Sources */,
+				54B9604A26054B2400F75DB9 /* Frameworks */,
+				54B9604B26054B2400F75DB9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "kitchen-sink";
-			productName = "kitchen-sink";
-			productReference = 54CCC0F6260523BA007EA2B5 /* kitchen-sink.app */;
+			name = Kitchensink;
+			productName = Kitchensink;
+			productReference = 54B9604D26054B2400F75DB9 /* Kitchensink.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		54CCC0EE260523BA007EA2B5 /* Project object */ = {
+		54B9604526054B2400F75DB9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					54CCC0F5260523BA007EA2B5 = {
+					54B9604C26054B2400F75DB9 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 54CCC0F1260523BA007EA2B5 /* Build configuration list for PBXProject "kitchen-sink" */;
+			buildConfigurationList = 54B9604826054B2400F75DB9 /* Build configuration list for PBXProject "Kitchensink" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,42 +122,43 @@
 				en,
 				Base,
 			);
-			mainGroup = 54CCC0ED260523BA007EA2B5;
-			productRefGroup = 54CCC0F7260523BA007EA2B5 /* Products */;
+			mainGroup = 54B9604426054B2400F75DB9;
+			productRefGroup = 54B9604E26054B2400F75DB9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				54CCC0F5260523BA007EA2B5 /* kitchen-sink */,
+				54B9604C26054B2400F75DB9 /* Kitchensink */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		54CCC0F4260523BA007EA2B5 /* Resources */ = {
+		54B9604B26054B2400F75DB9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54CCC101260523BB007EA2B5 /* Preview Assets.xcassets in Resources */,
-				54CCC0FE260523BB007EA2B5 /* Assets.xcassets in Resources */,
+				54B9605826054B2600F75DB9 /* Preview Assets.xcassets in Resources */,
+				54B9605526054B2600F75DB9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		54CCC0F2260523BA007EA2B5 /* Sources */ = {
+		54B9604926054B2400F75DB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54CCC0FC260523BA007EA2B5 /* ContentView.swift in Sources */,
-				54CCC0FA260523BA007EA2B5 /* kitchen_sinkApp.swift in Sources */,
+				54B9605326054B2400F75DB9 /* ContentView.swift in Sources */,
+				54B9606226054B4200F75DB9 /* ScrollViewReaderSink.swift in Sources */,
+				54B9605126054B2400F75DB9 /* KitchensinkApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		54CCC103260523BB007EA2B5 /* Debug */ = {
+		54B9605A26054B2600F75DB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -207,7 +219,7 @@
 			};
 			name = Debug;
 		};
-		54CCC104260523BB007EA2B5 /* Release */ = {
+		54B9605B26054B2600F75DB9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,44 +274,44 @@
 			};
 			name = Release;
 		};
-		54CCC106260523BB007EA2B5 /* Debug */ = {
+		54B9605D26054B2600F75DB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"kitchen-sink/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Kitchensink/Preview Content\"";
 				DEVELOPMENT_TEAM = 4HB7Z3F9Q7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "kitchen-sink/Info.plist";
+				INFOPLIST_FILE = Kitchensink/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "personal.kitchen-sink";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.Kitchensink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		54CCC107260523BB007EA2B5 /* Release */ = {
+		54B9605E26054B2600F75DB9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"kitchen-sink/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Kitchensink/Preview Content\"";
 				DEVELOPMENT_TEAM = 4HB7Z3F9Q7;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "kitchen-sink/Info.plist";
+				INFOPLIST_FILE = Kitchensink/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "personal.kitchen-sink";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.Kitchensink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,25 +321,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		54CCC0F1260523BA007EA2B5 /* Build configuration list for PBXProject "kitchen-sink" */ = {
+		54B9604826054B2400F75DB9 /* Build configuration list for PBXProject "Kitchensink" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54CCC103260523BB007EA2B5 /* Debug */,
-				54CCC104260523BB007EA2B5 /* Release */,
+				54B9605A26054B2600F75DB9 /* Debug */,
+				54B9605B26054B2600F75DB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		54CCC105260523BB007EA2B5 /* Build configuration list for PBXNativeTarget "kitchen-sink" */ = {
+		54B9605C26054B2600F75DB9 /* Build configuration list for PBXNativeTarget "Kitchensink" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54CCC106260523BB007EA2B5 /* Debug */,
-				54CCC107260523BB007EA2B5 /* Release */,
+				54B9605D26054B2600F75DB9 /* Debug */,
+				54B9605E26054B2600F75DB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 54CCC0EE260523BA007EA2B5 /* Project object */;
+	rootObject = 54B9604526054B2400F75DB9 /* Project object */;
 }

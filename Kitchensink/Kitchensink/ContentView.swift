@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  kitchen-sink
+//  Kitchensink
 //
 //  Created by Efren Mauricio on 2021/03/19.
 //
