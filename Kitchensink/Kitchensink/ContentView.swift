@@ -9,8 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List {
+                NavigationLink(
+                    destination: ScrollViewReaderSink(),
+                    label: {
+                        Text("ScrollViewReader + ScrollView + ScrollTo")
+                    })
+
+            }.navigationTitle("Samples")
+        }
+
     }
 }
 
