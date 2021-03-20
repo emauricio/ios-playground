@@ -7,18 +7,26 @@
 
 import SwiftUI
 
+// MARK: Menu model
+struct Menu: Identifiable {
+    var id = UUID()
+    var name: String
+    var view: AnyView
+}
+
 struct ContentView: View {
+
+    var menu: [Menu] = [
+        Menu(name: "ScrollViewReader + ScrollView + ScrollTo", view: AnyView(ScrollViewReaderSink())),
+        Menu(name: "Anchor and rotation", view: AnyView(AnchorRotationSink()))
+    ]
 
     var body: some View {
         NavigationView {
-            List {
-                NavigationLink(destination: ScrollViewReaderSink()){
-                    Text("ScrollViewReader + ScrollView + ScrollTo")
+            List(menu) { menuItem in
+                NavigationLink(destination: menuItem.view ){
+                    Text(menuItem.name)
                 }
-                NavigationLink(destination: AnchorRotationSink()){
-                    Text("Anchor + Rotation point")
-                }
-
             }.navigationTitle("Samples")
         }
 
