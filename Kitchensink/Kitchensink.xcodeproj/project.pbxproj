@@ -12,6 +12,7 @@
 		54B9605526054B2600F75DB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54B9605426054B2600F75DB9 /* Assets.xcassets */; };
 		54B9605826054B2600F75DB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54B9605726054B2600F75DB9 /* Preview Assets.xcassets */; };
 		54B9606226054B4200F75DB9 /* ScrollViewReaderSink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B9606126054B4200F75DB9 /* ScrollViewReaderSink.swift */; };
+		54B96070260639CE00F75DB9 /* AnchorRotationSink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B9606F260639CE00F75DB9 /* AnchorRotationSink.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		54B9605726054B2600F75DB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		54B9605926054B2600F75DB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54B9606126054B4200F75DB9 /* ScrollViewReaderSink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderSink.swift; sourceTree = "<group>"; };
+		54B9606F260639CE00F75DB9 /* AnchorRotationSink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorRotationSink.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				54B9606126054B4200F75DB9 /* ScrollViewReaderSink.swift */,
+				54B9606F260639CE00F75DB9 /* AnchorRotationSink.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			files = (
 				54B9605326054B2400F75DB9 /* ContentView.swift in Sources */,
 				54B9606226054B4200F75DB9 /* ScrollViewReaderSink.swift in Sources */,
+				54B96070260639CE00F75DB9 /* AnchorRotationSink.swift in Sources */,
 				54B9605126054B2400F75DB9 /* KitchensinkApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -39,7 +39,6 @@
 		54AFE57825FA4A2200AACDB3 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AFE57725FA4A2200AACDB3 /* CategoryItem.swift */; };
 		54AFE58725FA5C7600AACDB3 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 54AFE58625FA5C7600AACDB3 /* .swiftlint.yml */; };
 		54AFE58A25FA5DAD00AACDB3 /* Mintfile in Resources */ = {isa = PBXBuildFile; fileRef = 54AFE58925FA5DAD00AACDB3 /* Mintfile */; };
-		54AFE58E25FA5ECD00AACDB3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 54AFE58D25FA5ECD00AACDB3 /* README.md */; };
 		54B35F3625F268910028F59A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B35F3525F268910028F59A /* MapKit.framework */; };
 		54E90D7C25F4E95700F956AC /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E90D7B25F4E95700F956AC /* BadgeSymbol.swift */; };
 		54E90D7F25F4FD4000F956AC /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E90D7E25F4FD4000F956AC /* RotatedBadgeSymbol.swift */; };
@@ -86,7 +85,6 @@
 		54AFE57725FA4A2200AACDB3 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 		54AFE58625FA5C7600AACDB3 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		54AFE58925FA5DAD00AACDB3 /* Mintfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Mintfile; sourceTree = "<group>"; };
-		54AFE58D25FA5ECD00AACDB3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.markdown; };
 		54B35F3525F268910028F59A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		54E90D7B25F4E95700F956AC /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 		54E90D7E25F4FD4000F956AC /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
@@ -201,7 +199,6 @@
 			isa = PBXGroup;
 			children = (
 				54AFE58925FA5DAD00AACDB3 /* Mintfile */,
-				54AFE58D25FA5ECD00AACDB3 /* README.md */,
 				54AFE58625FA5C7600AACDB3 /* .swiftlint.yml */,
 				54866C8125F1B1900027F4DB /* Landmarks */,
 				54866C8025F1B1900027F4DB /* Products */,
@@ -345,7 +342,6 @@
 				54AFE58A25FA5DAD00AACDB3 /* Mintfile in Resources */,
 				54AFE58725FA5C7600AACDB3 /* .swiftlint.yml in Resources */,
 				54A4332225F504FB00C71A57 /* hikeData.json in Resources */,
-				54AFE58E25FA5ECD00AACDB3 /* README.md in Resources */,
 				54866C8A25F1B1930027F4DB /* Preview Assets.xcassets in Resources */,
 				54866C8725F1B1930027F4DB /* Assets.xcassets in Resources */,
 				5472A4A525F2516B00F1E8FB /* landmarkData.json in Resources */,

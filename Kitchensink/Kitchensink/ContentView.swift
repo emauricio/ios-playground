@@ -8,14 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+
     var body: some View {
         NavigationView {
             List {
-                NavigationLink(
-                    destination: ScrollViewReaderSink(),
-                    label: {
-                        Text("ScrollViewReader + ScrollView + ScrollTo")
-                    })
+                NavigationLink(destination: ScrollViewReaderSink()){
+                    Text("ScrollViewReader + ScrollView + ScrollTo")
+                }
+                NavigationLink(destination: AnchorRotationSink()){
+                    Text("Anchor + Rotation point")
+                }
 
             }.navigationTitle("Samples")
         }
