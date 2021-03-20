@@ -10,9 +10,10 @@ Introduction app for swift and ios development
 
 layout, animations, components and others things to play with.
 
-### Note to self:
+### Note to self
 
-Renaming a project is a pain, better not to do if not necesary, the name of the app can be change on the configuration.
+- Renaming a project is a pain, better not to do if not necesary, the name of the app can be change on the configuration.
+- [How to add the linter](https://github.com/realm/SwiftLint#xcode)
 
 ## Tools
 
