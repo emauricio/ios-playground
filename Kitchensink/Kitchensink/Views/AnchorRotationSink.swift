@@ -17,17 +17,33 @@ struct CustomOverlayText: ViewModifier {
                 Text(overlayText).foregroundColor(.white)
             )
             .frame(width: 100, height: 100)
-            .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+            .foregroundColor(.blue)
 
     }
 
 }
 
+// MARK: Better way to style a button
+struct BlueButton: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .frame(width: 130)
+            .padding(5)
+            .background(Color(.systemBlue))
+            .foregroundColor(Color(.white))
+            .cornerRadius(10.0)
+            .scaleEffect(configuration.isPressed ? 1.2 : 1)
+            .animation(.easeOut(duration: 0.2))
+            .frame(width: 180)
+    }
+}
+
 
 struct AnchorRotationSink: View {
     @State private var currentPoint: UnitPoint = .bottom
-    @State private var rotationDegree: Double = 90.0
+    @State private var rotationDegree: Double = 0.0
     @State private var isAnimated = false
+    let rotationRange = -360.00...360.00
 
     // TODO: kimochi warui, find nicer way
     let anchorPoints: [String: UnitPoint] = [
@@ -45,13 +61,14 @@ struct AnchorRotationSink: View {
         return anchorPoints.first(where: { $0.value == point })?.key ?? ""
     }
 
+
     var body: some View {
-        VStack(alignment: .center) {
+        VStack(alignment: .center, spacing: 50) {
             VStack{
                 Text("Double tap to reset")
-                Slider(value: $rotationDegree, in: -360...360).onTapGesture(count: 2, perform: {
-                    rotationDegree = 0
-                })
+                Slider(value: $rotationDegree, in: rotationRange)
+                    .onTapGesture(count: 2, perform: { rotationDegree = 0 })
+                    .animation(.easeOut)
                 Text("Rotation: \(Int(rotationDegree))")
             }
 
@@ -61,16 +78,14 @@ struct AnchorRotationSink: View {
                     Button(action: {
                         currentPoint = anchorPoints[key] ?? .bottom
                         isAnimated.toggle()
+                        rotationDegree = Double.random(in: rotationRange)
                     }) {
-                        Text(key).padding(10.0)
+                        Text("\(key)")
+//                            .font(currentPoint == anchorPoints[key] ? .body : .caption2)
                     }
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 10.0)
-                            .stroke(lineWidth: 1.0)
-                    )
-                    .foregroundColor(.blue)
+                    .buttonStyle(BlueButton())
                 }
-            }.frame(height: 250)
+            }.frame(width: 300, height: 200)
 
             Divider()
             HStack {
@@ -90,6 +105,7 @@ struct AnchorRotationSink: View {
 
 struct AnchorRotationSink_Previews: PreviewProvider {
     static var previews: some View {
-        AnchorRotationSink().preferredColorScheme(.light)
+        AnchorRotationSink()
+            .preferredColorScheme(.light)
     }
 }
