@@ -26,6 +26,7 @@ struct CustomOverlayText: ViewModifier {
 
 struct AnchorRotationSink: View {
     @State private var currentPoint: UnitPoint = .bottom
+    @State private var rotationDegree: Double = 90.0
     @State private var isAnimated = false
 
     // TODO: kimochi warui, find nicer way
@@ -40,30 +41,48 @@ struct AnchorRotationSink: View {
         ".topTrailing": .topTrailing,
     ]
 
+    func anchorName(_ point: UnitPoint) -> String {
+        return anchorPoints.first(where: { $0.value == point })?.key ?? ""
+    }
+
     var body: some View {
         VStack(alignment: .center) {
-            ForEach(Array(anchorPoints.keys.enumerated()), id: \.element) { index, key in
-                Button(action: {
-                    currentPoint = anchorPoints[key] ?? .bottom
-                    isAnimated.toggle()
-                }) {
-                    Text(key).padding(10.0)
-                }
-                .overlay(
-                    RoundedRectangle(cornerRadius: 10.0).stroke(lineWidth: 1.0)
-                )
-                .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+            VStack{
+                Text("Double tap to reset")
+                Slider(value: $rotationDegree, in: -360...360).onTapGesture(count: 2, perform: {
+                    rotationDegree = 0
+                })
+                Text("Rotation: \(Int(rotationDegree))")
             }
 
+            Divider()
+            ScrollView{
+                ForEach(Array(anchorPoints.keys.enumerated()), id: \.element) { index, key in
+                    Button(action: {
+                        currentPoint = anchorPoints[key] ?? .bottom
+                        isAnimated.toggle()
+                    }) {
+                        Text(key).padding(10.0)
+                    }
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 10.0)
+                            .stroke(lineWidth: 1.0)
+                    )
+                    .foregroundColor(.blue)
+                }
+            }.frame(height: 250)
+
+            Divider()
             HStack {
                 RoundedRectangle(cornerRadius: 10.0)
-                    .modifier(CustomOverlayText())
-                    .rotationEffect(.degrees(isAnimated ? -90: 0), anchor: currentPoint)
+                    .modifier(CustomOverlayText(overlayText: anchorName(currentPoint)))
+                    .rotationEffect(.degrees(rotationDegree), anchor: currentPoint)
                     .animation(.easeIn(duration: 0.5))
             }
-            .frame(width: 350, height: 100, alignment: .center)
+            .border(Color(.label))
+            // Color(.label) give me the oposite color to the theme
         }
-        .frame(width: 350)
+        .padding()
 
     }
 
@@ -71,6 +90,6 @@ struct AnchorRotationSink: View {
 
 struct AnchorRotationSink_Previews: PreviewProvider {
     static var previews: some View {
-        AnchorRotationSink()
+        AnchorRotationSink().preferredColorScheme(.light)
     }
 }
