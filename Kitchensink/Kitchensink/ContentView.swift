@@ -17,8 +17,9 @@ struct Menu: Identifiable {
 struct ContentView: View {
 
     var menu: [Menu] = [
-        Menu(name: "ScrollViewReader + ScrollView + ScrollTo", view: AnyView(ScrollViewReaderSink())),
-        Menu(name: "Anchor and rotation", view: AnyView(AnchorRotationSink()))
+        Menu(name: "ScrollViewReader + ScrollView + ScrollTo", view: AnyView(ScrollViewReaderSink()))
+        ,Menu(name: "Anchor and rotation", view: AnyView(AnchorRotationSink()))
+        ,Menu(name: "Biometric login", view: AnyView(BioLogin()))
     ]
 
     var body: some View {
@@ -29,6 +30,7 @@ struct ContentView: View {
                 }
             }.navigationTitle("Samples")
         }
+        .navigationViewStyle(StackNavigationViewStyle())
 
     }
 }

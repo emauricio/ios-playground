@@ -62,10 +62,8 @@ struct AnchorRotationSink: View {
                     .animation(.easeIn(duration: 0.5))
             }
             .frame(width: 350, height: 100, alignment: .center)
-            .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
-
         }
-        .frame(width: 350, height: 614)
+        .frame(width: 350)
 
     }
 
